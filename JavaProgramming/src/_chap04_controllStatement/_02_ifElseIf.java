@@ -16,9 +16,11 @@ public class _02_ifElseIf {
 		else if(asciiCode >= 97 && asciiCode <= 122)
 			System.out.println("소문자입니다.");
 		// 산술 -> 관계 -> 논리
-		else if(asciiCode < 65 || (asciiCode > 90 && asciiCode < 97) || asciiCode > 122)
-		System.out.println("잘못 입력하셨습니다.");
+		/*else if(asciiCode < 65 || (asciiCode > 90 && asciiCode < 97) || asciiCode > 122)
+		System.out.println("잘못 입력하셨습니다.");*/
 		
+		else
+			System.out.println("잘 못 입력하셨습니다.");
 		
 		
 		
