@@ -1,8 +1,8 @@
-package _chap04_controllStatement;
+package chap04_controllStatement;
 
 import java.io.IOException;
 
-public class _01_if {
+public class _02_ifElseIf {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -13,12 +13,14 @@ public class _01_if {
 		if(asciiCode >= 65 && asciiCode <=90)
 			System.out.println("대문자입니다.");
 		
-		if(asciiCode >= 97 && asciiCode <= 122)
+		else if(asciiCode >= 97 && asciiCode <= 122)
 			System.out.println("소문자입니다.");
 		// 산술 -> 관계 -> 논리
-		if(asciiCode < 65 || (asciiCode > 90 && asciiCode < 97) || asciiCode > 122)
-		System.out.println("잘못 입력하셨습니다.");
+		/*else if(asciiCode < 65 || (asciiCode > 90 && asciiCode < 97) || asciiCode > 122)
+		System.out.println("잘못 입력하셨습니다.");*/
 		
+		else
+			System.out.println("잘 못 입력하셨습니다.");
 		
 		
 		

@@ -1,4 +1,4 @@
-package _chap04_controllStatement;
+package chap04_controllStatement;
 
 import java.util.Scanner;
 
