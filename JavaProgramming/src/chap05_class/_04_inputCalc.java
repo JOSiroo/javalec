@@ -25,7 +25,9 @@ public class _04_inputCalc {
        case "*" :
     	   System.out.println((num1 + " " + op + " " + num2 + " = " + multiple(num1, num2)));
     	   break;
-    
+       case "/" :
+    	   System.out.println((num1 + " " + op + " " + num2 + " = " + minus(num1, num2)));
+    	   break;
        }
        
 	}
@@ -39,7 +41,7 @@ public class _04_inputCalc {
 	}
 	
 	public static long multiple(int a, int b) {
-		
+		return a * b;
 	}
 	
 	
