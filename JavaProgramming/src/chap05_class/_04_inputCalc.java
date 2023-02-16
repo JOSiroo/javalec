@@ -1,5 +1,7 @@
 package chap05_class;
 
+import java.util.Scanner;
+
 public class _04_inputCalc {
 
 	public static void main(String[] args) {

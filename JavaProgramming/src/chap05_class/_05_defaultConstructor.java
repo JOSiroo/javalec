@@ -8,7 +8,7 @@ public class _05_defaultConstructor {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Course course = new Course();
+		Course  = new Course();
 		
 		System.out.println("강의 번호는 : " + course.getcNo());
         System.out.println("강의 제목은 : "+ course.getcName());
