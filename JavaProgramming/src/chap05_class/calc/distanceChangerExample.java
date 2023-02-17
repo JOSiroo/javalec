@@ -8,6 +8,10 @@ public class distanceChangerExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//scanner는 String값을 받아준다.
+		//String 비교는 equals메소드를 사용한다.
+		//String은 jdk에서 제공하는 기본 클래스를 사용하기 때문에
+		// == 비교할 시 객체의 동일성(주소 값)을 비교한다
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("변환될 거리를 입력해주세요(정수) : ");
