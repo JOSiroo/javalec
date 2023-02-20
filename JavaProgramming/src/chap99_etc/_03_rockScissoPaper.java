@@ -41,8 +41,11 @@ public class _03_rockScissoPaper {
 			    	   i--;		    		      
 			       }
 			       continue;       			
+			       if(randomVal == userNum) {
+			    	   System.out.println("비겼습니다.");
+			       }
 				}	
-				if(randomVal == )
+				
 	}
 }		  
 			       
